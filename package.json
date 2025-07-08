@@ -1,0 +1,18 @@
+{
+  "name": "streambot",
+  "version": "1.0.0",
+  "description": "Stream bot for Michaelbobinger",
+  "main": "streambot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yungfenta?tab=respositories"
+  },
+  "author": "yung fenta",
+  "license": "MIT",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
