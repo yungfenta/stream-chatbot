@@ -4,8 +4,8 @@ const configuration = require('./config');
 const chatbot = new tmi.client(configuration);
 const fs = require('fs');
 const { Stream } = require('stream');
-const CLIENT_ID = 'gp762nuuoqcoxypju8c569th9wz7q5'
-const OAUTH_TOKEN = 'oauth:lpn0m3ffufxbch30tgo7c84jxhdf29'
+const CLIENT_ID = ''
+const OAUTH_TOKEN = ''
 const COIN_FILE = 'coins.json';
 
 async function getBroadcasterId(channel) {
