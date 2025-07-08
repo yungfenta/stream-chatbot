@@ -1,9 +1,9 @@
 const config = {
     identity:{
-        username:"yungfenta",
-        password: "oauth:eocck6mssz3qugn5gkpnk72x16zo9a"
+        username:"",
+        password: ""
     },
-    channels: ["yungfenta"]
+    channels: [""]
 };
 
 module.exports = config;
