@@ -225,7 +225,7 @@ chatbot.on('message', async (channel, tags, message, self) => {
 
     
     if (command === 'followage') {
-        const followageUrl = `https://decapi.me/twitch/followage/${channel.replace('#', '')}/${username}?token=NZroy5BhAQBVmlqoSH1mZAjD48rEyF13FO1de1XE`;
+        const followageUrl = `https://decapi.me/twitch/followage/${channel.replace('#', '')}/${username}?token=`;
     
         try {
             const response = await axios.get(followageUrl);
